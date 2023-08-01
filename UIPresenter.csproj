@@ -42,7 +42,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\UserControlSystem\UI\Presenter\MouseInteractionsPresenter.cs" />
-     <Compile Include="Assets\Scripts\UserControlSystem\UI\Presenter\BottomLefPresenter.cs" />
+     <Compile Include="Assets\Scripts\UserControlSystem\UI\Presenter\CommandButtonsPresenter.cs" />
+     <Compile Include="Assets\Scripts\UserControlSystem\UI\Presenter\BottomLeftPresenter.cs" />
      <None Include="Assets\Scripts\UserControlSystem\UI\Presenter\UIPresenter.asmdef" />
      <Folder Include="Assets\Scripts\UserControlSystem\UI\Presenter" />
      <Reference Include="UnityEngine">
@@ -729,9 +730,21 @@
       <Project>{ae05d772-fb9b-9560-f149-180e3d1a40ed}</Project>
       <Name>UIModel</Name>
     </ProjectReference>
+    <ProjectReference Include="UIView.csproj">
+      <Project>{80915b99-96d1-5921-42b5-2eca262d6f8c}</Project>
+      <Name>UIView</Name>
+    </ProjectReference>
     <ProjectReference Include="Abstractions.csproj">
       <Project>{e7560934-8a56-1f21-aac9-77ffbde05dee}</Project>
       <Name>Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="UserControlSystem.csproj">
+      <Project>{5bd5cdcc-cd4f-7469-e6e9-6fd1661748da}</Project>
+      <Name>UserControlSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Utils.csproj">
+      <Project>{7bf23a23-7b03-1542-5458-7e54daee05fd}</Project>
+      <Name>Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -41,8 +41,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Abstractions\IStopCommand.cs" />
+     <Compile Include="Assets\Scripts\Abstractions\IProduceUnitCommand.cs" />
+     <Compile Include="Assets\Scripts\Abstractions\ICommandExecutor.cs" />
+     <Compile Include="Assets\Scripts\Abstractions\IAttackCommand.cs" />
+     <Compile Include="Assets\Scripts\Abstractions\CommandExecutorBase.cs" />
+     <Compile Include="Assets\Scripts\Abstractions\ICommand.cs" />
+     <Compile Include="Assets\Scripts\Abstractions\IPatrolCommand.cs" />
+     <Compile Include="Assets\Scripts\Abstractions\IMoveCommand.cs" />
      <Compile Include="Assets\Scripts\Abstractions\ISelectable.cs" />
-     <Compile Include="Assets\Scripts\Abstractions\IUnitProducer.cs" />
      <None Include="Assets\Scripts\Abstractions\Abstractions.asmdef" />
      <Folder Include="Assets\Scripts\Abstractions" />
      <Reference Include="UnityEngine">

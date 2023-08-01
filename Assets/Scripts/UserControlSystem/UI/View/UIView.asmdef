@@ -1,3 +1,16 @@
 {
-	"name": "UIView"
+    "name": "UIView",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f9637a37419666f4bb1c7089edc3ace4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
